@@ -114,6 +114,11 @@ function SafeComponentCreate(options) {
         args
       ),
       ios: () => nativeModule[name](findNodeHandle(instance), ...args),
+      harmony: () => UIManager.dispatchViewManagerCommand(
+        findNodeHandle(instance),
+        UIManager[realViewName].Commands[name],
+        args
+      ),
       default: () => {},
     })();
   };
@@ -123,6 +128,7 @@ function SafeComponentCreate(options) {
     Platform.select({
       ios: native,
       android: native,
+      harmony: native,
       default: () => {},
     })();
   };
