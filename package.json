@@ -1,7 +1,10 @@
 {
-  "name": "react-native-safe-module",
-  "version": "1.2.0",
+  "name": "@react-native-oh-tpl/react-native-safe-module",
+  "version": "1.2.0-0.0.1",
   "description": "A safe way to consume React Native NativeModules",
+  "harmony": {
+    "alias": "react-native-safe-module"
+  },
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run --silent build",
@@ -14,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lelandrichardson/react-native-safe-module.git"
+    "url": "git+https://github.com/react-native-oh-library/react-native-safe-module.git"
   },
   "keywords": [
     "react-native",
