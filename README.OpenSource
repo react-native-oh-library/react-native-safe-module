@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-safe-module",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "1.2.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/lelandrichardson/react-native-safe-module",
+        "Description": "A safe way to consume React Native NativeModules"
+    }
+]
